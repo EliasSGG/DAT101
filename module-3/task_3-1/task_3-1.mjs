@@ -4,11 +4,29 @@ import { printOut, newLine } from "../../common/script/utils.mjs";
 printOut("--- Part 1, 2, 3 ----------------------------------------------------------------------------------------");
 /* Put your code below here!*/
 printOut("Task 1, 2 and 3");
-let wakeUpTime = 2;
-if ("Replace this") {
+// Try changing wakeUpTime to 6, 7, or 8 to test
+let wakeUpTime = 6;
+
+// Part 1, 2, 3
+if (wakeUpTime === 7) {
   printOut("I can take the bus to school.");
 }
+else if (wakeUpTime === 6) {
+  printOut("I have to get up early and take the bus to school.");
+
+}
+else if (wakeUpTime === 8) {
+  printOut("I can take the train to school.");
 printOut(newLine);
+}
+else {
+  printOut("I can take the car to school!");
+}
+printOut("if (wakeUpTime === 7) {" + 
+  "printOut" + " (" +"I can take the bus to school.);" + "}"
+
+
+printOut(newLine);                        
 
 printOut("--- Part 4, 5 --------------------------------------------------------------------------------------------");
 /* Put your code below here!*/
